@@ -22,6 +22,8 @@ setup(
         "torchvision>=0.4.2",
         "sklearn",
         "tensorboard",
+        "fvcore",
+        "opencv-python"
     ],
     packages=find_packages(exclude=("configs", "tests")),
 )
